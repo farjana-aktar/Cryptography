@@ -43,8 +43,8 @@ int main()
     string CipherText = encrypt(text, width);
     cout << "Cipher Text : " << CipherText << endl;
 
-    string CipherText1 = encrypt(CipherText, width);
-    cout << "Double Cipher Text : " << CipherText1 << endl;
+    // string CipherText1 = encrypt(CipherText, width);
+    // cout << "Double Cipher Text : " << CipherText1 << endl;
 
     string Original = decrypt(CipherText, width);
     cout << "Original Text : " << Original << endl;
